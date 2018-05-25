@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Takuya"></activity>
+        <activity android:name=".Takuya" />
+        <activity android:name=".Kodai" />
+        <activity android:name=".Maaya" />
+        <activity android:name=".Yuki" />
+        <activity android:name=".Takamatu" />
+        <activity android:name=".Takenobu" />
+        <activity android:name=".Tomoka"></activity>
     </application>
 
 </manifest>
