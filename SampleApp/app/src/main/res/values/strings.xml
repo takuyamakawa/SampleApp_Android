@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SampleApp</string>
+    <string name="explanation">ListViewは文字などをリスト表示するものです。\nもともと入っているレイアウトを使うほか、自分でカスタマイズしたレイアウトを使うこともできます。</string>
 </resources>
