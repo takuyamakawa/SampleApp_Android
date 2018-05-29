@@ -2,6 +2,7 @@ package com.example.yamataku.sampleapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -49,8 +50,10 @@ public class Tomoka extends AppCompatActivity {
         categoryList.add(category);
 
         String[] from = {"name", "number"};
-        int[] to = {android.R.id.text1, android.R.id.text2};
-        SimpleAdapter adapter = new SimpleAdapter(Tomoka.this, categoryList, android.R.layout.simple_list_item_2, from, to);
+        //int[] to = {android.R.id.text1, android.R.id.text2};
+        //SimpleAdapter adapter = new SimpleAdapter(Tomoka.this, categoryList, android.R.layout.simple_list_item_2, from, to);
+        int[] to = {R.id.row_textview1, R.id.row_textview2};
+        SimpleAdapter adapter = new SimpleAdapter(this, categoryList, R.layout.row, from, to);
         lvCategory.setAdapter(adapter);
     }
 }
