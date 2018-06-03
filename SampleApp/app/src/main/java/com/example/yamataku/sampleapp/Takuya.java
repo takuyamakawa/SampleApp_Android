@@ -12,12 +12,12 @@ public class Takuya extends AppCompatActivity {
         setContentView(R.layout.activity_takuya);
 
         TextView intro = findViewById(R.id.introduction);
-        String text = "ほげほげほげほげほげほげほげほげほげほげほげほげ" +
-                "ほげほげほげほげほげほげほげほげほげほげほげほげほげほげ" +
-                "ほげほげほげほげほげほげほげほげほげほげほげほげほげほげ" +
-                "ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ" +
-                "ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ" +
-                "ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ";
+        String text = "TableLayoutの説明です。\n\n" +
+                "ボタンだけだなく画像やその他部品を配置させることができます。\n\n" +
+                "大きさに関してはlayout_spanを変更することで変更できます。" +
+                "上では、0のlayout_spanを2にした場合がそれに当たります。\n\n" +
+                "また、配置はAttributesからもlayout_columnを指定することで変更できます。" +
+                "上では、「+」のlayout_columnを3にした場合がそれに当たります。";
 
         intro.setText(text);
     }
