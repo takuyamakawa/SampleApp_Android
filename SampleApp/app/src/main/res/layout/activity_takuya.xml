@@ -39,11 +39,11 @@
                 android:layout_height="wrap_content"
                 android:text="9" />
 
-            <Button
-                android:id="@+id/button16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="/" />
+            <ImageButton
+                android:id="@+id/waru"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/status_bar_item_background" />
 
         </TableRow>
 
@@ -70,11 +70,11 @@
                 android:layout_height="wrap_content"
                 android:text="6" />
 
-            <Button
-                android:id="@+id/button19"
+            <ImageButton
+                android:id="@+id/kakeru"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="＊" />
+                app:srcCompat="@android:drawable/ic_delete" />
 
         </TableRow>
 
@@ -101,11 +101,11 @@
                 android:layout_height="wrap_content"
                 android:text="3" />
 
-            <Button
-                android:id="@+id/button9"
+            <ImageButton
+                android:id="@+id/hiku"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ー" />
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/button_onoff_indicator_on" />
 
         </TableRow>
 
@@ -120,12 +120,13 @@
                 android:layout_span="2"
                 android:text="0" />
 
-            <Button
-                android:id="@+id/button13"
+            <ImageButton
+                android:id="@+id/tasu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"
-                android:text="＋" />
+                app:srcCompat="@android:drawable/ic_input_add" />
+
         </TableRow>
     </TableLayout>
 
