@@ -50,8 +50,6 @@ public class Tomoka extends AppCompatActivity {
         categoryList.add(category);
 
         String[] from = {"name", "number"};
-        //int[] to = {android.R.id.text1, android.R.id.text2};
-        //SimpleAdapter adapter = new SimpleAdapter(Tomoka.this, categoryList, android.R.layout.simple_list_item_2, from, to);
         int[] to = {R.id.row_textview1, R.id.row_textview2};
         SimpleAdapter adapter = new SimpleAdapter(this, categoryList, R.layout.row, from, to);
         lvCategory.setAdapter(adapter);

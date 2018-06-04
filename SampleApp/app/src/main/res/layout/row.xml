@@ -27,6 +27,6 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:src="@drawable/arrow" />
+        android:src="@drawable/ic_chevron_right_black_24dp" />
 
 </LinearLayout>

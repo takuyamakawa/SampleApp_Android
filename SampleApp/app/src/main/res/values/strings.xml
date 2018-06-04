@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">SampleApp</string>
-    <string name="explanation">ListViewは文字などをリスト表示するものです。\nもともと入っているレイアウトを使うほか、自分でカスタマイズしたレイアウトを使うこともできます。</string>
+    <string name="explanation">ListViewは文字などをリスト表示するものです。\n
+        もともと入っているレイアウトを使うほか、自分でカスタマイズしたレイアウトを使うこともできます。\n\n
+        カスタマイズするには、\n
+        1. 1行ごとのスタイルを指定するxmlファイルを画面全体用のxmlと別に作成する。\n
+        2. javaファイル内でアダプターをセットするときに、先ほど作成したxmlファイルのレイアウトを設定する。\n
+        という感じです。</string>
 </resources>
