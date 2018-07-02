@@ -19,19 +19,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
-
-    <GridView
-        android:id="@+id/gridView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:horizontalSpacing="4dp"
-        android:verticalSpacing="4dp"
-        android:numColumns="5"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp">
-    </GridView>
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:horizontalSpacing="4dp"
+            android:verticalSpacing="4dp"
+            android:numColumns="5"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+        </GridView>
 
     <Button
         android:id="@+id/button"

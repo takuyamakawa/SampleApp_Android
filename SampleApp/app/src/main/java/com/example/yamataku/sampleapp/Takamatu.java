@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -48,6 +49,7 @@ public class Takamatu extends AppCompatActivity{
                 Toast.makeText(Takamatu.this,message,Toast.LENGTH_SHORT).show();
             }
         });
+
     }
     public void back(View view){
         finish();
